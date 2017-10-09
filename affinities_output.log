@@ -1,0 +1,72 @@
+Reading publicvotes-20101018_votes.dump...
+Done reading publicvotes-20101018_votes.dump in 74.811 seconds
+23091688 votes, on 3436063 posts, by 43976 users, in 11675 subreddits
+
+Writing ID-to-hash maps...
+Writing user_id_hashes.tsv...
+Done writing user_id_hashes.tsv
+Writing post_id_hashes.tsv...
+Done writing post_id_hashes.tsv
+Writing sr_id_hashes.tsv...
+Done writing sr_id_hashes.tsv
+Done writing ID-to-hash maps in 0.388 seconds
+
+Calculating user-subreddit upvote proportions...
+Done calculating user-subreddit upvote proportions in 0.081 seconds
+Average user-subreddit upvote proportion is: 0.853586756913
+Average total user-subreddit vote count is: 28.0061854095
+Median total user-subreddit vote count is: 3
+
+Calculating user-subreddit affinities; writing affinities.tsv...
+Done writing affinities.tsv in 5.087 seconds
+824521 user-subreddit affinities, average 0.855973630958
+
+Counting users' post counts...
+Done counting users' post counts in 0.004 seconds
+Writing user_post_count_counts.tsv...
+Done writing user_post_count_counts.tsv in 0.04 seconds
+Each user voted on 1 to 186472 posts, average 525.097507731, median 30
+A user who voted on the maximum 186472 posts is: #27188 (27450f5afaea52fc5c0ee9a3dccdb3a1)
+
+Counting subreddits' post counts...
+Done counting subreddits' post counts in 0.001 seconds
+Writing sr_post_count_counts.tsv...
+Done writing sr_post_count_counts.tsv in 0.501 seconds
+Each subreddit has 1 to 3138272 posts, average 1977.87477516, median 5
+A subreddit with the maximum 3138272 posts is: #16 (28f1529b3c3c1fbfef45f45a9d5762b3)
+
+Counting users' subreddit counts...
+Done counting users' subreddit counts in 0.004 seconds
+Writing user_sr_count_counts.tsv...
+Done writing user_sr_count_counts.tsv in 0.002 seconds
+Each user has voted on posts in 1 to 1041 subreddits, average 18.7493405494, median 8
+A user with votes on posts in the maximum 1041 subreddits is: #10515 (0caf168308ed5096af6a6e3625c1d7a8)
+
+Counting subreddits' user counts...
+Done counting subreddits' user counts in 0 seconds
+Writing sr_user_count_counts.tsv...
+Done writing sr_user_count_counts.tsv in 0.006 seconds
+Each subreddit has posts with votes by 1 to 36187 users, average 70.6227837259, median 2
+A subreddit with posts with votes by the maximum 36187 users is: #0 (f05a7cf5bb58640cb26860d862414f52)
+
+Counting users' vote counts...
+Done counting users' vote counts in 0.083 seconds
+Writing user_vote_count_counts.tsv...
+Done writing user_vote_count_counts.tsv in 0.046 seconds
+Each user placed 0 to 186472 votes, average 525.097507731 (442.343755685 up, 82.7537520466 down)
+A user who placed the maximum 186472 votes is: #27188 (27450f5afaea52fc5c0ee9a3dccdb3a1)
+
+Counting subreddits' vote counts...
+Done counting subreddits' vote counts in 0.057 seconds
+Writing sr_vote_count_counts.tsv...
+Done writing sr_vote_count_counts.tsv in 0.507 seconds
+Each subreddit has placed in it 0 to 3138272 votes, average 1977.87477516 (1666.16779443 up, 311.706980728 down)
+A subreddit which has placed in it the maximum 3138272 votes is: #16 (28f1529b3c3c1fbfef45f45a9d5762b3)
+
+Counting posts' vote counts...
+Done counting posts' vote counts in 0.136 seconds
+Writing post_vote_count_counts.tsv...
+Done writing post_vote_count_counts.tsv in 0.016 seconds
+Each post has placed on it 0 to 39049 votes, average 6.72039133159 (5.6612783293 up, 1.05911300229 down)
+
+Total elapsed time: 82.798 seconds
